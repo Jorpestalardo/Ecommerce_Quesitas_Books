@@ -1,0 +1,1567 @@
+/* html, body, #app {
+    height: 100%;
+} */
+
+.text-danger{
+    color: #780808;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portada > p{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+ion-icon{
+    font-size: 64px;
+}
+
+.bienvenida{
+    background-image: url(../img/deco/portada.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bienvenida > h1{
+    margin-right: 170px;
+    padding-top: 200px;
+}
+
+.bienvenida > .intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.bienvenida > .intro > a {
+    background: #7E6BC4;
+    border: 0;
+    padding: 8px;
+    margin-top: 26px;
+    margin-left: 68%;
+    width: 106px;
+    color: white;
+}
+
+.bienvenida > .intro > p{
+    margin-left: 50%;
+    margin-right: 70px;
+    margin-top: 36px;
+}
+
+h1,
+h2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+p{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.somos {
+    background-color: #1b1225;
+    padding: 300px;
+    height: 100vh;
+}
+
+.somos > h2 {
+    color: #f3b300;
+}
+
+.somos > p{
+    color: white;
+    margin-top: 30px;
+}
+
+.somos > a{
+    background-color: #f3b300;
+    color: #1b1225;
+}
+
+
+.novedades{
+    background-color: #f3b300;
+    padding: 300px;
+    height: 100vh;
+}
+
+.novedades  p,
+.libros p{
+    color: #1b1225;
+    margin-top: 30px;
+}
+
+.novedades > a{
+    background-color: #1b1225;
+    color: #f3b300;
+}
+
+.libros{
+    background-color: #6fa29e;
+    padding: 300px;
+    height: 100vh;
+}
+
+.libros > a{
+    background-color: #397571;
+    color: aliceblue;
+}
+
+.final{
+    background-color: #6fa29e;
+    padding: 140px;
+    color: black;
+}
+
+#navbar > ul li > a > ion-icon {
+    font-size: 28px;
+}
+
+#navbar > ul li > a.profile{
+    border-right: 1px solid #000;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-expand-lg .navbar-collapse .navbar-nav .nav-item{
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+.navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+        color: #1b1225;
+}
+
+.navbarAdmin {
+    background-color: #F8CBA6;
+}
+
+.navbarAdmin .navbar-collapse .navbar-nav .nav-item form button {
+    background-color: #DC143C;
+    color: white;
+    font-family: 'ABeeZee', sans-serif;
+    margin-left: 30px;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.mainAdmin {
+    background-color: #F8CBA6;
+}
+
+/* --------------------------------------------- */
+
+.secQuienes{
+    background-image: url(../img/fondo-estrellas.jpg);
+
+
+}
+
+.secQuienes > h1{
+    margin-left: 100px;
+    padding: 50px 150px;
+    color: aliceblue;
+    
+}
+
+.secQuienes p{
+    color: aliceblue;
+}
+
+.secQuienes > .introQuienes{
+    margin-left: 100px;
+    padding: 132px;
+}
+
+.secQuienes > .sofia,
+.secQuienes > .carlos {
+    display: flex;
+    align-items: center;
+    padding: 200px;
+}
+
+.secQuienes > .lucia,
+.secQuienes > .laura {
+    display: flex;
+    align-items: center;
+    padding: 200px;
+    flex-direction: row-reverse;
+}
+
+.secQuienes > .sofia > h2,
+.secQuienes > .lucia > h2,
+.secQuienes > .carlos > h2,
+.secQuienes > .laura > h2{
+    width: 110%;
+    color: antiquewhite;
+}
+
+.secQuienes > .sofia > p,
+.secQuienes > .carlos > p{
+    margin-left: 200px;
+}
+
+.secQuienes > .lucia > p,
+.secQuienes > .laura > p{
+    margin-right: 200px;
+}
+
+
+
+.secQuienes > .conclusionQuienes p:nth-child(3){
+    margin-bottom: 0;
+}
+
+.secQuienes > .conclusionQuienes{
+    padding: 150px;
+}
+
+.secQuienes > .conclusionQuienes p > a{
+    color: #f3b300;
+}
+
+/*-------------------------------------------- */
+
+.secNews{
+    background-image: url(../img/fondo-novedades.jpg);
+}
+
+.secNews > h1{
+    margin-left: 100px;
+    padding: 150px;
+    color: #1b1225;
+}
+
+.secNews > .container .row ul li .card{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.secNews > .container .row ul li .card .card-body .card-title{
+    margin-bottom: 30px;
+}
+
+.secNews > .container .row ul li .card .card-body{
+    padding: 40px;
+}
+
+.secNews > .container .row ul li .card .card-body a{
+    background-color: #b7d9c2;
+}
+
+.secNews .container .row ul li .card .card-body .authorDate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.secDetailNew{
+    background-color: #6fa29e;
+    color: #071c1b;
+}
+
+.secDetailNew h2{
+    padding: 30px;
+}
+
+.secDetailNew .infoNew{
+    padding: 62px;
+}
+
+.secDetailNew p,
+.secDetailNew h3{
+    margin-left: 40px;
+    color: black;
+}
+
+.secDetailNew h3{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 17px;
+}
+
+.secDetailNew .authorDate{
+    display: flex;
+    margin-left: 14px;
+    margin-top: 14px;
+    border-bottom: 1px solid;
+    border-color: #397571;
+}
+
+
+.secDetailNew .d-grid > a{
+    margin-left: 40px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+}
+
+.secDetailNew .d-grid > a:first-child{
+    background-color: white;
+}
+
+/* ---------------------------------------- */
+
+.secBooks{
+    background-color: #1b1225;
+}
+
+.secBooks > .container{
+    padding: 30px 154px 154px 154px;
+}
+.secBooks > .container > p{
+    color: aliceblue;
+
+}
+.secBooks h1{
+    margin-left: 100px;
+    padding: 40px 40px 0 40px ;
+    color: aliceblue;
+}
+
+.secBooks > .container .row ul,
+.secNews > .container .row ul{
+    list-style: none;
+}
+
+
+.secBooks > .container .row ul li .card{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: aliceblue;
+}
+
+.secBooks > .container .row ul li .card .card-body .titleDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secBooks > .container .row ul li .card .card-body .card-title{
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+
+.secBooks > .container .row ul li .card .card-body .precio {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+
+.secBooks > .container .row ul li .card .card-body > a{
+    background-color: #008080;  
+    color: white; 
+}
+
+/* ------------------------------------------- */
+
+.detailBook{
+    background-color: #1b1225;
+    color: aliceblue;
+}
+
+.detailBook > h1{
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.detailBook > a {
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+
+.book {
+    display: flex;
+    padding: 100px;
+}
+
+.book > .infoBook{
+    display: flex;
+    flex-direction: column;
+    margin-left: 54px;
+}
+
+.book > .infoBook > .autorDate {
+    display: flex;
+}
+
+.book > .infoBook > .autorDate > p span {
+    color: #6c757d;
+}
+
+.book > .infoBook > .autorDate > p:nth-child(2) {
+    margin-left: 20px;
+}
+
+.book > .infoBook > .infoExtra{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.book > .infoBook > .infoExtra div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book > .infoBook > .infoExtra div h3{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+}
+
+.book > .infoBook .precio {
+    font-size: 20px;
+    margin-top: 60px;
+    color: #ff9100;
+    border-bottom: 1px solid;
+}
+
+.book > .infoBook > a {
+    margin: 0;
+    border: 0;
+    width: 78px;
+    margin-top: 160px;
+}
+
+.book > .infoBook > form{
+    display: flex;
+    align-items: center;
+}
+
+.book > .infoBook > form > .quantity
+{
+    width: 25%;
+    text-align: center;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    border-radius: 20px;
+
+}
+
+.book > .infoBook > form button{
+    margin-left: 20px;
+    background-color: #2E8B57;
+    color: black;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding: 9px;
+
+}
+
+/* ------------------------------------------- */
+
+.login{
+    background-color: #6fa29e;
+    padding: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.login > h1{
+    margin-bottom: 100px;
+}
+
+.login > form{
+    width: 40%;
+    padding: 68px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login > form div label{
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.login > form div input{
+    width: 100%;
+}
+
+.login > form div .password{
+    margin-top: 20px;
+}
+
+.login > form div .password > input{
+    position: relative;
+}
+
+.login > form > div .password-field {
+    position: relative;
+}
+
+.login > form > div .password-field .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.login > form > div .password-field .toggle-password ion-icon {
+    font-size: 20px;
+}
+
+.login > form > .botones button {
+    background-color: #008080;
+    color: white;
+}
+
+.login > form > .botones{
+    margin-top: 60px;
+}
+
+.formNew > form > div > label .required{
+    color: red;
+    margin-left: 5px;
+}
+
+.formNew > form div > p,
+.editBook > form div > p{
+    color: gray;
+    font-size: 12px;
+}
+
+
+/* ------------------------------------------- */
+
+
+
+.register{
+    background-color: #8da8a5;
+    padding: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.register > h1{
+    margin-bottom: 100px;
+}
+
+.register > div {
+    width: 80%;
+    padding: 68px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.register > div div form div label{
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.register > div div div label{
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.register > div div form div input{
+    width: 100%;
+}
+
+.register > div div form div .password{
+    margin-top: 20px;
+}
+
+.register > div div form div .password > input{
+    position: relative;
+}
+
+.register > div > div div textarea{
+    height: 254px;
+    resize: none;
+}
+
+.register > div div > .botones button {
+    background-color: #008080;
+    color: white;
+    font-size: 17px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.register > div div > .botones a{
+    font-size: 17px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.register > div div > .botones{
+    margin-top: 30px;
+}
+
+.register > div div form > div .password-field {
+    position: relative;
+}
+
+.register > div div form > div .password-field .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.register > div div form > div .password-field .toggle-password ion-icon {
+    font-size: 20px;
+}
+
+
+/*------------------------*/
+
+.adminIndex{
+    background-color: #F8CBA6;
+    padding: 100px;
+    height: 100%;
+}
+
+.adminIndex p:nth-child(2){
+    margin-top: 30px;
+}
+
+.adminIndex p:nth-child(3){
+    margin-top: 60px;
+}
+
+.adminIndex a{
+    background-color: #68855C;
+    color: white;
+}
+/* ------------------------------------------- */
+
+.dashboard{
+    background-color: #F8CBA6;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.introDash{
+    padding: 130px;
+}
+
+.introDash p:nth-child(2){
+    margin-top: 30px;
+    border-bottom: 1px solid;
+    border-color: #392310;
+}
+
+.dashboard > a{
+    background-color: #395F44;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-left: 130px;
+}
+
+
+.dashboard .container table {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dashboard .container{
+    margin-top: 130px;
+}
+
+.dashboard .container table tbody tr td > a:first-child {
+    background-color: #395F44;
+    color: white;
+
+}
+
+.dashboard .container table tbody tr td > a:nth-child(2) {
+    background-color: #DC143C;
+    color: white;
+
+}
+/* ------------------USUARIOS------------------------- */
+
+.usuarios{
+    background-color: #F8CBA6;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.introDash{
+    padding: 130px;
+}
+
+.usuarios p:nth-child(2){
+    margin-top: 30px;
+    border-bottom: 1px solid;
+    border-color: #392310;
+}
+
+.usuarios .detalleUsuario{
+    background-color: #395F44;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.usuarios .card-title{
+    font-size: 20px;
+}
+.usuarios .card {
+    --background: #f4eee4;
+    --green: #6fa29e;
+    --yellow: #f3b300;
+    --orange: #e09116;
+    --red: #cc5265;
+    --violet: #17193e;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background: var(--background);
+    padding: 1rem;
+    border: 3px solid var(--violet);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+           20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 
+           30px -30px 0 -3px var(--background), 30px -30px var(--orange), 
+           40px -40px 0 -3px var(--background), 40px -40px var(--red);
+    transition: box-shadow 1s, top 1s, left 1s;
+    margin: 30px;
+   }
+   
+   
+   /*Hover*/
+  .usuarios .card:hover {
+    box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--green),
+         0 0 0 -3px var(--background), 0 0 0 0  var(--yellow),
+         0 0 0 -3px var(--background), 0 0 0 0  var(--orange),
+         0 0 0 -3px  var(--background), 0 0 0 0  var(--red);
+   }
+
+
+   .usuarios > .introDash > .container{
+    margin-top: 10%;
+   }
+
+
+.formNew,
+.editBook{
+    background-color: #F8CBA6;
+    height: 100%;
+    padding: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formNew h1,
+.editBook h1{
+    margin-bottom: 100px;
+}
+
+.formNew > form,
+.editBook form{
+    width: 40%;
+    padding: 68px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.formNew > form div .form-control,
+.editBook form div .form-control{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.formNew > form div label{
+    margin-top: 30px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.editBook form div label,
+.editBook form div p{
+    margin-top: 30px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.formNew form div textarea,
+.editBook form div textarea{
+    resize: none;
+    margin-top: 10px;
+    height: 193px;
+}
+
+.formNew > form div input,
+.editBook form div input{
+    margin-top: 10px;
+}
+
+.formNew form > .botones,
+.editBook form .botones{
+    margin-top: 60px;
+}
+
+.formNew form > .botones > button,
+.editBook form > .botones > button{
+    background-color: #395F44;
+    color: white;
+    border: none;
+}
+
+.editBook form > .botones > a {
+    margin-left: 20px;
+}
+/* ------------------------------------------- */
+
+.deleteBook {
+    background-color: #fbeadb;
+    height: 100%;
+}
+
+.deleteBook h1 {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.deleteBook > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deleteBook > form > p {
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.deleteBook > form > .d-grid{
+    font-size: 20px;
+
+}
+
+
+.deleteBook > form > .d-grid > a{
+    margin-left: 30px;
+}
+
+/* ------------------------------------------- */
+
+.container .image-container {
+    width: 250px; /* Ajusta el ancho según tus necesidades */
+    height: 250px; /* Ajusta la altura según tus necesidades */
+    border-radius: 50%; /* Hace que el contenedor tenga forma circular */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que supere el tamaño del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    border: 10px solid  #6fa29e; /* Agrega un borde de 2 píxeles de grosor y color negro */
+  
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+  }
+
+.authorDate span {
+    font-size: 18px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.infoPerfil span{
+    font-size: 18px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+/* ------------------------------------------- */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: #6fa29e;
+    color: #fff;
+}
+
+.footerMain {
+    background-color: #F8CBA6;
+    color: #392310;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+/* -------------------CARRITO-------------------- */
+.carrito a{
+    display: flex;
+    color: #285631;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'ABeeZee', sans-serif;
+    margin-bottom: 12px;
+}
+
+.carrito a ion-icon{
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.carrito div ul{
+    list-style: none;
+}
+
+.carrito div ul li .card{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 9px 16px -10px rgba(102,101,101,0.75);
+    -webkit-box-shadow: 0px 9px 16px -10px rgba(102,101,101,0.75);
+    -moz-box-shadow: 0px 9px 16px -10px rgba(102,101,101,0.75);
+    border: none;
+}
+
+
+.carrito div ul li .card .card-body > form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carrito div ul li .card .card-body > form ion-icon{
+    font-size: 28px;
+    color: rgb(120, 6, 6);
+}
+
+.carrito div ul li .card .card-body > .idLibro{
+    font-size: 12px;
+    color: grey;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 77px;
+}
+
+.carrito div ul li .card .card-body > h2{
+    color: #1b1225;
+}
+
+.carrito div ul li .card .card-body .infoProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carrito div ul li .result > .card-body > .cuenta p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito div ul li .result > .card-body > .cuenta p:first-child{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+
+}
+
+.carrito div ul li .result > .card-body > .cuenta p:last-child{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.carrito div ul li .result .card-body > form{
+    display: flex;
+    justify-content: center;
+}
+
+.carrito div ul li .result .card-body > form button{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #626060;
+}
+
+.carrito div ul li .result .card-body > form button ion-icon{
+    font-size: 20px;
+    margin-right: 6px;
+    color: rgb(98 96 96);
+}
+
+.carrito > .cart-empty{
+    background-image: url(../img/deco/cart-empty.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    background-size: 46%;
+    display: flex;
+    background-position: center bottom;
+    flex-direction: column;
+    align-items: center;
+    padding: 82px;
+    margin-bottom: 12px;
+}
+
+.carrito > .cart-empty p{
+    font-size: 40px;
+}
+
+.carrito > .cart-empty p:nth-child(2){
+    font-size: 18px;
+}
+
+/* ------------------------------------------------- */
+
+.pagoSuccess,
+.pagoPending,
+.pagoFailure{
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    justify-content: center;
+}
+
+.pagoFailure div{
+    border-radius:200px; 
+    height:200px; 
+    width:200px; 
+    background: #faf5f5; 
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagoFailure h1,
+.pagoFailure div ion-icon{
+    color: #b04b4b;
+}
+
+.pagoPending div{
+    border-radius:200px; 
+    height:200px; 
+    width:200px; 
+    background: #faf7f5; 
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagoPending h1,
+.pagoPending div ion-icon{
+    color: #b0724b;
+}
+
+.pagoSuccess div{
+    border-radius:200px; 
+    height:200px; 
+    width:200px; 
+    background: #F8FAF5; 
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagoSuccess h1,
+.pagoSuccess div ion-icon{
+    color: #88B04B;
+}
+
+.pagoSuccess h1,
+.pagoPending h1,
+.pagoFailure h1{
+    margin-top: 50px;
+}
+
+/* -------------------------------ADMININDEX--------------------- */
+
+.adminIndex > .gestion{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.adminIndex > .gestion .publicarNovedad{
+    margin-left: 120px;
+}
+
+.adminIndex > .estadisticas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.adminIndex > .estadisticas > div{
+    background: #ffd5b2;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    margin: 32px;
+    border-radius: 20px;
+    padding: 40px;
+    width: 40%;
+}
+.adminIndex > .estadisticas > div p{
+    display: flex;
+    align-items: center;
+}
+
+.adminIndex > .estadisticas > div p span{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.adminIndex > .estadisticas > div p ion-icon{
+    margin-right: 28px;
+}
+
+.usuarios > .introDash > div div div .authorDate .comprasHechas{
+    border-top: 1px solid;
+}
+
+.usuarios > .introDash > div div div .authorDate a{
+    display: flex;
+    align-items: center;
+    color: darkgreen;
+    text-decoration: none;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.usuarios > .introDash > div div div .authorDate a ion-icon{
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+/* --------------------- MOBILE --------------- */
+@media screen and (max-width: 1667px) and (min-width: 1441px) {
+    .bienvenida{
+        background-size: 202%;
+        background-position: -256px -17px;
+    }
+}
+
+
+@media screen and (max-width: 1440px){
+    .bienvenida{
+        background-size: 153% 103%;
+        background-position-x: -68px;
+        background-position-y: bottom;
+        height: 70vh;
+    }
+    .bienvenida > h1 {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1337px) and (min-width: 1025px) {
+    .bienvenida{
+        background-size: 140%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .bienvenida {
+        background-image: url(../img/deco/portada.svg);
+        background-repeat: no-repeat;
+        height: 57vh;
+        background-position-x: -75px;
+        background-size: 180% 110%;
+    }       
+
+    .bienvenida > h1{
+        padding-right: 42px;
+        padding-left: 38%;
+        padding-top: 90px;
+        margin-right: 0;
+    }
+
+    .bienvenida > .intro > p{
+        margin-top: 23px;
+        font-size: 14px;
+    }
+
+    .bienvenida > .intro > a{
+        margin-top: 6px;
+        margin-left: 64%;
+    }
+
+    .somos,
+    .novedades,
+    .libros{
+        padding: 188px;
+    }
+}
+@media screen and (max-width: 989px) and (min-width: 768px) {
+    .bienvenida{
+        background-size: 181%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .bienvenida {
+        background-image: url(../img/deco/portada.svg);
+        background-repeat: no-repeat;
+        background-size: 169% 67%;
+        background-position-x: -39px;
+        height: 66vh;
+    }       
+
+    .bienvenida > h1{
+        padding-left: 0;
+        padding-top: 110px;
+        margin-right: 0;
+    }
+
+    .bienvenida > .intro > p{
+        margin-top: 23px;
+        font-size: 14px;
+        margin-left: 352px;
+    }
+
+    .bienvenida > .intro > a{
+        margin-top: 6px;
+        margin-left: 64%;
+    }
+
+    .somos,
+    .novedades,
+    .libros{
+        padding: 178px;
+    }
+
+    .secQuienes > .sofia,
+    .secQuienes > .carlos,
+    .secQuienes > .laura,
+    .secQuienes > .lucia{
+        padding: 30px;
+    }
+
+    .login,
+    .register{
+        padding: 0;
+    }
+
+    .login > form > .botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .book{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 743px) and (min-width: 426px) {
+    .bienvenida{
+        height: 71vh;
+        background-position: -48px 100%;
+        background-size: 150%;
+    }
+    
+    .bienvenida > .intro > p{
+        margin-left: 46px;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .bienvenida{
+        background-position-y: 151%;
+    }
+
+    .bienvenida > h1{
+        font-size: 30px;
+        text-align: center;
+        margin-right: 26px;
+        padding-top: 10px;
+    }
+    
+    .bienvenida > .intro > p {
+        margin-left: 10%;
+        margin-right: 38px;
+        font-size: 14px;
+    }
+
+    .bienvenida > .intro > a {
+        margin-top: 45px;
+        margin-left: 46%;
+    }
+
+    .somos,
+    .novedades,
+    .libros{
+        padding: 28px;
+        height: 100vh;
+        padding-top: 189px;
+    }
+
+    .somos > h2,    
+    .novedades > h2,
+    .libros > h2{
+        font-size: 32px;
+    }
+
+    .somos > p,
+    .novedades > p,
+    .libros > p,
+    .final > p{
+        font-size: 16px;
+    }
+
+    .somos > a,
+    .novedades > a,
+    .libros > a{
+        width: 170px;
+        font-size: 16px;
+    }
+
+    .final{
+        padding-top: 80%;
+        padding: 24px;
+    }
+
+    .final > p:nth-child(2){
+        margin-bottom: 0;
+    }
+
+    .secQuienes > h1 {
+        margin-left: 0;
+        padding: 78px;
+        text-align: center;
+    }
+
+    .secQuienes{
+        padding: 0;
+    }
+
+    .secQuienes > .introQuienes{
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .secQuienes > .sofia,
+    .secQuienes > .carlos,
+    .secQuienes > .laura,
+    .secQuienes > .lucia{
+        flex-direction: column;
+        padding: 0;
+        margin-top: 130px;
+    }
+
+    .secQuienes > .sofia > p, .secQuienes > .carlos > p, .secQuienes > .lucia > p, .secQuienes > .laura > p {
+        margin-left: 12px;
+        margin-right: 0;
+        padding: 12px;
+    }
+
+    .secQuienes > .sofia > h2, .secQuienes > .lucia > h2, .secQuienes > .carlos > h2, .secQuienes > .laura > h2 {
+        width: 88%;
+    }
+
+    .secQuienes > .conclusionQuienes {
+        padding: 37px;
+        margin-top: 50%;
+        padding-bottom: 50%;
+    }
+
+    .secBooks h1 {
+        font-size: 30px;
+        margin-left: 36px;
+        margin-top: 30px;
+        color: aliceblue;
+    }
+
+    .secBooks > .container {
+        margin-top: 30px;
+    }
+
+    .secBooks > .container .row ul li .card,
+    .secNews > .container .row ul li .card{
+        margin-bottom: 50px;
+    }
+
+    .book{
+        padding: 35px;
+        flex-direction: column;
+    }
+
+    .book > .infoBook{
+        margin-left: 0;
+        margin-top: 27px;
+    }
+
+    .book > .infoBook > .autorDate {
+        border-bottom: 1px solid;
+        margin-bottom: 34px;
+    }
+
+    .detailBook > a{
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+    .book > .infoBook > .infoExtra {
+        flex-direction: column;
+    }
+
+    .book > .infoBook > .infoExtra div{
+        align-items: flex-start;
+    }
+
+    .secNews > h1{
+        margin-left: 0;
+        padding: 60px;
+    }
+
+    .secDetailNew .infoNew {
+        padding: 10px;
+        margin-left: 12px;
+        margin-top: 44px;
+    }
+
+    .secDetailNew p{
+        margin-left: 12px;
+        color: black;
+        padding-top: 30%;
+    }
+
+    .secDetailNew .d-grid > a {
+        margin-left: 0;
+    }
+
+    .secDetailNew .d-grid{
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+
+    .login,
+    .register{
+        padding: 0;
+        padding-bottom: 40px;
+    }
+
+    .login > h1,
+    .formNew > h1, 
+    .editBook > h1{
+        margin-top: 100px;
+    }
+
+    .editBook > h1{
+        margin-left: 40px;
+    }
+
+    .login > form{
+        width: 88%;
+    }
+
+    .login > form > .botones,
+    .register > div div .botones {
+        display: flex;
+    }
+
+    .ms-5 {
+        margin: 0;
+    }
+
+    .login > form > .botones > a{
+        margin-left: 44px;
+    }
+
+    .adminIndex {
+        padding: 50px;
+        padding-bottom: 100%;
+    }
+
+    .formNew, .editBook {
+        padding: 0;
+    }
+
+    .formNew > form, .editBook form {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .navbarAdmin .navbar-collapseAdmin{
+        background-color: #F8CBA6;
+    }
+
+    .usuarios .card{
+        width: 200px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .usuarios .card-title{
+        font-size: 16px;
+    }
+
+    .introDash{
+        padding: 10px;
+    }
+
+    .usuarios .detalleUsuario{
+        font-size: 16px;
+    }
+
+    .carrito div ul li .card{
+        flex-direction: column;
+    }
+
+    .adminIndex > .estadisticas > div{
+        width: 100%;
+    }
+
+    .adminIndex > .gestion .publicarNovedad {
+        margin-left: 78px;
+    }
+
+
+    @media screen and (max-width: 369px) and (min-width: 320px){
+        .bienvenida {
+            background-size: 170%;
+            background-position: center bottom;
+            height: 63vh;
+        }
+    }
+}

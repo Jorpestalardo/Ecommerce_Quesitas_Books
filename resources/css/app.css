@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+}
+
+@media (max-width: 767px) {
+    .table-wrapper {
+      overflow-x: scroll;
+    }
+  }
+
+  
